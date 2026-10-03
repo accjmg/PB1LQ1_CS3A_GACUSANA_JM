@@ -1,0 +1,94 @@
+/* Simple design for the RSA sign up activity */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px #0002;
+}
+
+h1 {
+  margin-bottom: 5px;
+  color: #1e3a8a;
+}
+
+h2 {
+  color: #1e3a8a;
+  margin-top: 25px;
+}
+
+h3 {
+  color: #334155;
+}
+
+.intro {
+  margin-top: 0;
+  color: #64748b;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+input,
+select {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 25px;
+  padding-top: 10px;
+  border-top: 2px solid #e2e8f0;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #e2e8f0;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}

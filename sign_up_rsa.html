@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSA Sign Up Form</title>
+  <link rel="stylesheet" href="sursa.css">
+  <script src="https://cdn.jsdelivr.net/npm/jsencrypt@latest/bin/jsencrypt.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Enrollment / Sign Up Form</h1>
+    <p>RSA Encryption and Decryption</p>
+
+    <form id="signupForm">
+      <label>Full Name</label>
+      <input type="text" id="fullName" placeholder="Enter full name" required>
+
+      <label>Date of Birth</label>
+      <input type="date" id="birthDate" required>
+
+      <label>Year Level</label>
+      <input id="yearLevel" type="text" placeholder="Enter year level" required>
+
+      <label>Gender</label>
+      <input id="gender" type="text" placeholder="Enter gender" required>
+
+      <label>Username</label>
+      <input type="text" id="username" placeholder="Enter username" required>
+
+      <label>Password</label>
+      <input type="password" id="password" placeholder="Enter password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p id="message"></p>
+
+
+    <div id="result" class="result hidden">
+      <h2>1024-bit RSA</h2>
+
+      <h3>Encrypted</h3>
+      <pre id="encrypted1024"></pre>
+
+      <h3>Decrypted</h3>
+      <pre id="decrypted1024"></pre>
+
+      <h2>3072-bit RSA</h2>
+
+      <h3>Encrypted</h3>
+      <pre id="encrypted3072"></pre>
+
+      <h3>Decrypted</h3>
+      <pre id="decrypted3072"></pre>
+    </div>
+  </div>
+
+  <script src="sursa.js"></script>
+</body>
+</html>
